@@ -1,0 +1,17 @@
+{
+  "name": "Gym Progress",
+  "short_name": "GymProgress",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0f16",
+  "theme_color": "#111827",
+  "description": "Tréningový tracker s 5-týždňovou periodizáciou, odporúčaniami, históriou a grafmi.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
