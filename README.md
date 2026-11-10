@@ -11,6 +11,8 @@ Na lokálne vyskúšanie spusti v tomto priečinku jednoduchý webový server, n
 ## Čo obsahuje
 
 - váha a opakovania pre každú sériu; váhy podporujú ľubovoľné desatinné čísla vrátane 0,25 / 0,5 / 0,75 kg,
+- pridanie aj odobratie extra série bez možnosti omylom znížiť počet pod predpísaný plán,
+- odporúčané prestávky podľa typu cviku a osobitné odporúčanie pre supersérie,
 - posledné hodnoty a odporúčania podľa štvortýždňovej periodizácie,
 - návrhy podobných cvikov aj ľubovoľná vlastná náhrada,
 - oddelená história každého náhradného cviku pri zachovaní starej histórie,
@@ -20,7 +22,7 @@ Na lokálne vyskúšanie spusti v tomto priečinku jednoduchý webový server, n
 
 ## Dáta a aktualizácia
 
-Dáta sa ukladajú v `localStorage` aktuálneho prehliadača a neposielajú sa na server. Pred vymazaním údajov prehliadača alebo zmenou URL sprav JSON export. Pri aktualizácii súborov ponechaj rovnakú URL; service worker používa cache `gym-progress-v5.0.0`.
+Dáta sa ukladajú v `localStorage` aktuálneho prehliadača a neposielajú sa na server. Pred vymazaním údajov prehliadača alebo zmenou URL sprav JSON export. Pri aktualizácii súborov ponechaj rovnakú URL; service worker používa cache `gym-progress-v5.1.0`.
 
 Pri prvom spustení na rovnakej URL sa existujúca história z Gym Progress v4 automaticky prenesie do v5. Pôvodný záznam `gym-progress-v4` zostane nedotknutý ako záloha.
 
